@@ -1,0 +1,36 @@
+.hero img{
+    font-family: sans-serif;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -12;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;     
+    gap: 30px;
+    margin-left: 160px;
+    margin-top: 130px;
+}
+
+.left-side span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(184, 119, 119);
+}
+
+.left-side .name1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.left-side p{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(200, 181, 181);
+}

@@ -1,0 +1,39 @@
+.speakers-footer-container{
+    position: absolute;
+    width: 100%;
+    top: 800px;
+}
+
+
+
+.speaker-img{
+    width:  500px;
+    height: 550px;
+}
+
+.speaker-img img{
+    width: 100%;
+}
+
+.first-speaker{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.SP{
+    margin-top: 20px;
+}
+
+.speakers-items-for-show {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    margin-top: 100px;
+    flex-direction: row;
+    gap: 100px; /* Add spacing between items */
+}

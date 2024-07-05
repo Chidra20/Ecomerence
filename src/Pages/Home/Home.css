@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.home-footer-container{
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+}
+
+
+body{
+    background: white;
+}
+
+.items-for-show {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    margin-top: 400px;
+    flex-direction: row;
+    gap: 100px; /* Add spacing between items */
+}
+
+
+.sp{
+  width: 140px;
+  height: 40px;
+  border: none;
+  padding: 10px 6px;
+  font-size: 12px;
+  background-color: red;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+.sp:hover{
+  width: 150px;
+  height: 50px;
+}
+
+.may-like-items{
+  display: flex;
+  align-items: center; /* Center items vertically */
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 60px;
+}

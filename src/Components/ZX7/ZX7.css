@@ -1,0 +1,36 @@
+.container2{
+    width: 80%;
+    background-color: rgb(236, 226, 223);
+    height: 300px;   
+    overflow: hidden;
+}
+
+.left-side2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 300px;
+    top: 690px;
+    gap: 40px;
+}
+
+.left-side2 p{
+    font-size: 50px;
+    color: black;
+    font-weight: 300;
+}
+
+.left-side2 button{
+    color: black;
+    font-weight: bold;
+    background: transparent;
+    border: solid 2px black;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+    }
+
+.left-side2 button:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}

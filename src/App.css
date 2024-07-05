@@ -1,0 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+
+.items-for-show{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 644px;
+    display: flex;
+    flex-direction: row;
+    left: 150px;
+    gap: 100px;
+    align-items: center;
+}

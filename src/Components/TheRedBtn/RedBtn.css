@@ -1,0 +1,15 @@
+.red-btn button{
+    width: 140px;
+    height: 40px;
+    border: none;
+    padding: 10px 6px;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.red-btn button:hover{
+    transform: translateY(5px);
+}
